@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Şehrim</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/mycity.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navContainer">
+        <h1>GEZİNME ATLASI</h1>
+
+        <ul class="navbarLinks">
+          <li>
+            <a href="index.html">Hakkımda</a>
+          </li>
+          <li>
+            <a href="cv.html">Öz Geçmiş</a>
+          </li>
+          <li>
+            <a href="mycity.html">Şehrim</a>
+          </li>
+          <li>
+            <a href="heritage.html">Mirasımız</a>
+          </li>
+          <li>
+            <a href="hobbies.html">Hobilerim</a>
+          </li>
+          <li>
+            <a href="contact.html">İletişim</a>
+          </li>
+          <li>
+            <a href="login.html">Giriş Yap</a>
+          </li>
+        </ul>
+
+        <span class="sidenavButton" onclick="openNav()">
+          <svg
+            fill="none"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 6H20M4 12H20M4 18H20"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </span>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="index.html">Hakkımda</a>
+          <a href="cv.html">Öz Geçmiş</a>
+          <a href="mycity.html">Şehrim</a>
+          <a href="hobbies.html">Hobilerim</a>
+          <a href="heritage.html">Mirasımız</a>
+          <a href="contact.html">İletişim</a>
+          <a href="login.html">Giriş Yap</a>
+        </div>
+        <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+          }
+
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+        </script>
+      </div>
+    </nav>
+    <main class="content">
+      <div class="slider">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">
+            ←
+          </button>
+          <button class="carousel-button next" data-carousel-button="next">
+            →
+          </button>
+          <ul data-slides>
+            <li class="slide">
+              <img src="./images/resim.jpg" alt="Nature Image #2" />
+            </li>
+
+            <li class="slide">
+              <img
+                src="./images/resim6.jpg"
+                alt="Nature Image #3"
+              />
+            </li>
+            <li class="slide">
+              <img
+                src="./images/resim11.jpg"
+                alt="Nature Image #3"
+              />
+            </li>
+            <li class="slide">
+              <img
+                src="./images/resim12.jpg"
+                alt="Nature Image #3"
+              />
+            </li>
+            <li class="slide" data-active>
+              <img
+                src="./images/resim8.jpg"
+                alt="Nature Image #3"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mycity">
+        <br><br>
+        <h1>Her Şeyiyle Bursa</h1>
+        <hr />
+        <p>
+          Bursa, Türkiye'nin Marmara Bölgesi'nde yer alır. Marmara Denizi'nin güneydoğusunda, İstanbul'un güneyinde bulunur.
+          Doğusunda Sakarya, batısında Bursa, kuzeyinde Kocaeli ve güneyinde ise Balıkesir illeri bulunmaktadır.
+          İklimi genellikle Marmara iklimi etkisi altındadır, yani yazları sıcak ve kurak, kışları ise ılıman ve yağışlı geçer.
+        </p>
+        <p>
+           Bursa, Osmanlı İmparatorluğu'nun ilk başkenti olarak önemli bir tarihi ve kültürel mirasa sahiptir.
+           Osmanlı İmparatorluğu'nun kurucusu Osman Gazi'nin türbesi ve oğlu Orhan Gazi'nin türbesi gibi önemli tarihi yapılar burada bulunur.
+           Ayrıca, Ulu Cami, Yeşil Türbe, Koza Han gibi mimari açıdan önemli eserler de Bursa'nın kültürel dokusunu oluşturur
+        </p>
+        <h2>ULU CAMİİ</h2>
+        <hr />
+
+        <p>
+          Ulu Cami, Türkiye'nin Bursa şehrinde bulunan ve Osmanlı İmparatorluğu'nun ilk dönemlerinden kalma büyük bir camidir.
+           İslam mimarisinin en güzel örneklerinden biri olarak kabul edilen bu yapı, Osmanlı döneminin önemli eserlerinden biridir.
+           Caminin ismi "Ulu Cami" ya da "Büyük Cami" anlamına gelir ve Bursa'nın merkezinde, tarihi çarşı bölgesinde bulunur.
+           Ulu Cami'nin yapımına 1396 yılında başlanmış ve 1400 yılında tamamlanmıştır. Cami, Osmanlı mimarisinin klasik özelliklerini taşır.
+           Büyük bir avlunun ortasında yer alan cami, dört minaresi ve büyük bir kubbesiyle dikkat çeker.
+           Kubbenin yanında küçük kubbeli revaklar bulunur ve bu revaklar caminin iç avlusuna açılır. 
+           Caminin iç mekanı da oldukça etkileyicidir. İç avluya açılan büyük bir kapıdan girildiğinde, geniş bir ibadet alanı ve mihrap ile minber görülür. İç mekanın süslemeleri çini işçiliği, hat sanatı ve oyma süslemelerle bezelidir.
+           Duvarlarda kullanılan çiniler ve süslemeler, dönemin sanatının en güzel örneklerinden birini sunar. 
+          Ulu Cami, Bursa'nın simgelerinden biri olarak kabul edilir ve şehrin tarihî ve kültürel mirasının önemli bir parçasını oluşturur.
+           Ziyaretçiler, bu muazzam yapıyı görerek Osmanlı İmparatorluğu'nun başlangıç dönemlerine ait mimari ve sanat eserlerini yakından gözlemleme fırsatı bulurlar. 
+           Ayrıca, cami hala aktif bir ibadet yeri olarak kullanılmaktadır ve turistlerin yanı sıra yerel halk tarafından da ziyaret edilir.
+        </p>
+        <h2>Koza Han</h2>
+        <hr />
+
+        <p>
+          
+         Koza Han, Türkiye'nin Bursa şehrinde bulunan tarihî bir han ve alışveriş merkezidir.
+         İpek ticaretinin yapıldığı bu han, Osmanlı döneminde Bursa'nın ipek yolu üzerindeki önemli duraklarından biriydi.
+         İpek ürünlerinin alınıp satıldığı bir ticaret merkezi olarak hizmet vermiştir.
+         Koza Han, Bursa'nın tarihî çarşısında yer alır ve şehrin tarihi ve kültürel dokusunu yansıtan önemli bir yapıdır.
+         Hanın mimarisi, Osmanlı döneminin karakteristik özelliklerini taşır.
+         Girişinde geniş bir avlu bulunur ve çevresinde dükkanlar sıralanmıştır.
+         Günümüzde Koza Han, turistlerin ve yerel halkın alışveriş yapabileceği bir mekandır.
+         İpek ürünleri, el işi ürünler, hediyelik eşyalar ve yöresel ürünler gibi çeşitli ürünlerin satıldığı dükkanlar bulunur.
+         Ayrıca, hanın çevresinde restoranlar, kafeler ve hediyelik eşya dükkanları da yer alır.
+         Koza Han, Bursa'nın tarihî ve kültürel mirasını koruyan ve ziyaretçilere geleneksel bir alışveriş deneyimi sunan önemli bir yapıdır.
+          Şehri ziyaret edenler, bu tarihî hanı görerek Bursa'nın ipek ticareti geçmişine tanıklık edebilir ve yöresel ürünleri keşfedebilirler.
+
+
+
+
+
+
+        </p>
+        <h2>Yeşil Türbe</h2>
+        <hr />
+
+        <p>
+          Yeşil Türbe, Türkiye'nin Bursa şehrinde bulunan ve Osmanlı İmparatorluğu'nun kurucusu olan Yıldırım Bayezid'in türbesidir. 15. yüzyılın başlarında yapılmış olan bu türbe, Osmanlı mimarisinin en önemli örneklerinden biridir ve Bursa'nın simgelerinden biri olarak kabul edilir.
+          Yeşil Türbe, yeşil ve beyaz çinilerle süslenmiş olan çatısı ve duvarlarıyla dikkat çeker. Türbenin iç mekanı da oldukça etkileyicidir.
+          İç avluya açılan büyük bir kapıdan girildiğinde, türbenin merkezinde Yıldırım Bayezid'in sandukası bulunur.
+          Sandukanın etrafı çeşitli renklerdeki çinilerle kaplanmıştır ve dönemin sanatının en güzel örneklerinden birini sunar.
+          Türbenin içinde Yıldırım Bayezid'e ait olan sandukanın yanı sıra, o döneme ait çeşitli eşyalar ve yazıtlar da bulunur.
+          Bunlar arasında Bayezid'in kullandığı eşyalar, armağanlar ve döneminin önemli sanat eserleri yer alır.
+          Türbenin içi, zengin süslemeleri ve çinileriyle göz alıcı bir atmosfere sahiptir.
+          Yeşil Türbe, Bursa'nın tarihî ve kültürel mirasının önemli bir parçasını oluşturur.
+          Osmanlı İmparatorluğu'nun kurucusunun mezarını barındıran bu türbe, ziyaretçilere Osmanlı döneminin zenginliklerini ve sanatını yakından gözlemleme fırsatı sunar.
+          Bursa'yı ziyaret edenler genellikle Yeşil Türbe'yi de görmek ister ve şehrin tarihî atmosferini deneyimlemek için bu önemli yapıyı ziyaret ederler.
+        </p>
+        <h2>Yiyecekler</h2>
+        <p>
+          İlk olarak iskender adı verilen ince doğranmış döner eti ,tereyağı yopurt ve domates sosu ile servis edilen bir lezzet şöleninden bahsedebiliriz.Bursa kebaplarıyla da kendinden bahsettirmiştir kebaptan etin farklı şekillerde pişirilip servis edildiği geleneksel bir 
+          türk yemeği olarakta bahsedebiliriz.Pideli köfte, köftenin yanında pideli bulgur pilavı ile sunulan bir lezzet.Yeşil incir Bursa'nın meşhur incrleri taze olarak veya tatlılarda kullanılarak tüketilir.
+          Bursa şeftalisiyle de ünlü bir şehirdir Bursa'da çok farklı türleri yetişen şeftali,yaz aylarının en sevilen meyvelerinden biridir. Dünyaya Çin üzerinden yayıldığı düşünülen şeftali uzun yaşam ve ölümsüzlük sembolü olarakta görülür.
+          Tatlı atıştırmalıkların başını çeken bir unsur olarakta kestane şekerinden bahsedebiliriz.
+        </p>
+
+        <h2>Bursa Otomotiv Sektörü</h2>
+        <hr />
+
+        <p>
+          Bursa otomotiv sektörü için Türkiyenin'nin en önemli endüstrilerinden biridir.Şehir,uluslararası  otomotiv şirketlerinin yanı sıra yerli üreticilerin de üretim tesislerine ev sahipliği yapmaktadır.
+          Bursa'da bulunan fabrikalar,birçok farklı markaya ait otomobil ve ticari araçların üretimini gerçekleştirmektedir.Bursa'nın otomotiv sektöründeki yükselişi,Türkiye'nin otomotiv endüstrisinin gelişiminde
+          büyük rol oynar.Şehir lojistij avantajları,nitelikli iş gücü ve sağlam altyapısıyla otomotiv üretimine uygun bir ortam sunmaktadır.Bölgedeki üretim tesisleri, yüksek teknolojiye sahip üretim hatlarıyla mordern otomobillerin
+          ve ticari araçların üretimini gerçekleştirmektedir.
+        </p>
+        <p>
+         Bursa'daki otomotiv sektörü sadece araç üretimile sınırlı değildir.Aynı zamanda yan sanayi tesisleri de bulunmaktadır.Bu tesisler, otomobil parçaları, bileşenler ve ekipmanları üreterek 
+         sektörün büyümesine katkıda bulunmaktadır.Sektördeki devam eden Ar-Ge çalışmaları ve yenilikçi yaklaşımlar, Bursa'yı uluslararası otomotiv endstrisinin önde gelen merkezlerinden biri haline getirmiştir.
+         Bursa'daki otomotiv sektörü, hem ekonomoik büyümeye katkı sağlayarak istihdamı arttırmakta hem de Türkiye'nin ihracat potansiyelini güçlendirmektedir.
+        </p>
+        
+          <hr>
+
+        
+
+
+        <div class="flex">
+          <div style="flex-basis: 40%">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://youtu.be/wDQaxemKu8w?si=81fIv45Jfg4AdH14"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div style="flex-basis: 40%">
+            <iframe
+              width="100%"
+              height="315"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=bursa+(Bursa)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            >
+              ></iframe
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+<script src="./scripts/slider.js"></script>
+#   m y - p r o j e c t  
+ 
