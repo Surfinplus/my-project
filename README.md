@@ -1,3 +1,2 @@
-WEB TEKNOLOJİLERİ ÖDEVİNİNİN İLERLEMELERİNİN AŞAMA AŞAMA YÜKLENDİĞİ COMMİTLER
-ŞÖYLE BİR SORUN VAR GİTHUB GÜNCELLEME İLE YAPTIĞIMDAN İLK ATTIĞIM COMMİTLERİN TARİHLERİ GÜNCELLENDİ
-ANCAK TELEFONUMDA BUNUN ÖNCEDEN OLABİLECEĞİNİ DÜŞÜNEREK ÇEKTİĞİM BİR FOTOĞRAF BULUNMAKTA VE BU DURUMU AÇIKLIYOR
+Web teknolojileri dersi için kendimizi ve şehrimizi tanıtan web sitesi tasarlayacağız bu web sitesi için domain alacağız apiden yararlanacağız ve giriş bilgilerimizi js üzerinden kontrol edeceğiz 
+
