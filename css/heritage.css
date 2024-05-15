@@ -1,0 +1,13 @@
+.heritage {
+  margin: 0 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.heritage p {
+  font-weight: 500;
+}
+
+.heritage h1 {
+  margin-bottom: 3rem;
+}
