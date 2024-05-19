@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hobilerim</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/hobbies.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navContainer">
+        <h1>GEZİNME ATLASI</h1>
+
+        <ul class="navbarLinks">
+          <li>
+            <a href="index.html">Hakkımda</a>
+          </li>
+          <li>
+            <a href="cv.html">Öz Geçmiş</a>
+          </li>
+          <li>
+            <a href="mycity.html">Şehrim</a>
+          </li>
+          <li>
+            <a href="heritage.html">Mirasımız</a>
+          </li>
+          <li>
+            <a href="hobbies.html">Hobilerim</a>
+          </li>
+          <li>
+            <a href="contact.html">İletişim</a>
+          </li>
+          <li>
+            <a href="login.html">Giriş Yap</a>
+          </li>
+        </ul>
+
+        <span class="sidenavButton" onclick="openNav()">
+          <svg
+            fill="none"
+            height="32"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 6H20M4 12H20M4 18H20"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </span>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="index.html">Hakkımda</a>
+          <a href="cv.html">Öz Geçmiş</a>
+          <a href="mycity.html">Şehrim</a>
+          <a href="hobbies.html">Hobilerim</a>
+          <a href="heritage.html">Mirasımız</a>
+          <a href="contact.html">İletişim</a>
+          <a href="login.html">Giriş Yap</a>
+        </div>
+        <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+          }
+
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+        </script>
+      </div>
+    </nav>
+    <main class="content">
+      <div class="container">
+        <h1>Hobilerim</h1>
+        <hr />
+
+        <section>
+          <h2>Fitness</h2>
+          <p>
+          Spor yapmak, sağlıklı beslenmek, düzenli uyku ve stresten uzak durmak hayatımızın vazgeçilmez bir parçası olmalıdır.
+          Bana böyle imkanlar sunduğu ve güzel hissettirdiği için hobilerim arasında yer alıyor.
+          </p>
+        </section>
+
+        <section>
+          <h2>Yüzmek</h2>
+          <p>
+            Yüzmek, vücudun tüm kaslarını çalıştıran ve kalori yakımını hızlandıran bir spordur. 
+            Ayrıca yüzmek, vücudu rahatlatır ve stresi azaltır. 
+            Bu nedenle yüzmek, hem fiziksel hem de zihinsel sağlığımız için oldukça faydalıdır.
+            Ayrıca küçüklükten gelen bir deniz sevdası ile birlikte bu işin üstüne gidip profesyonel seviyede de yaptım bu nedenle şuan bu işi ileri seviyede yapmasamda hala zaman zaman gidip yüzmek bana keyif veren aktivteler arasında yer alıyor.
+            
+          </p>
+        </section>
+
+        <section>
+          <h2>Film İzlemek</h2>
+          <p>
+            Başlarda bana ne kadar zaman kaybı gibi gelse de film izlemek insanın bu konuda bir kültür oluşturması ve izlediği filmler sonucu dem vurulan yerler hakkında düşünmesi zihnini açan hayal gücünü zenginleştiren
+             ve evrensel mesajları bilinçaltına alabildiğiniz çok güzel bir aktivitedir. Aşağıda sevdiğim filmlere ait bir yelpaze göreceksiniz eğer ilginizi çeken bir film olursa tıklayarak bilgi alabilirsiniz 
+          </p>
+
+          <div class="movieSliderContainer">
+            <div id="movieList" class="cardContainer"></div>
+
+            <button class="carousel-button prev" data-carousel-button="prev">
+              ←
+            </button>
+            <button class="carousel-button next" data-carousel-button="next">
+              →
+            </button>
+          </div>
+        </section>
+
+       
+      </div>
+    </main>
+  </body>
+</html>
+<script src="./scripts/fetch.js"></script>
